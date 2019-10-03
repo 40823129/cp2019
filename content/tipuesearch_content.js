@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'about\xa0 games\xa0 of\xa0 thrones', 'text': '', 'tags': '', 'url': 'about\xa0 games\xa0 of\xa0 thrones.html'}]};
+var tipuesearch = {"pages": [{'title': 'about\xa0 games\xa0 of\xa0 thrones', 'text': '\n', 'tags': '', 'url': 'about\xa0 games\xa0 of\xa0 thrones.html'}]};
