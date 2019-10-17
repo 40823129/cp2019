@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'about\xa0 games\xa0 of\xa0 thrones', 'text': '\n 40823129 \n', 'tags': '', 'url': 'about\xa0 games\xa0 of\xa0 thrones.html'}]};
+var tipuesearch = {"pages": [{'title': 'about\xa0 games\xa0 of\xa0 thrones', 'text': "\n void main() {\n  for (int i = 0; i < 5; i++) {\n    print('hello ${i + 1}');\n  }\n}\n \n gist: https://gist.github.com/40823129/035c69a6a98a9817b8741dcb8e1a6eac \n https://mde.tw/dartpad/?id=035c69a6a98a9817b8741dcb8e1a6eac \n 40823129 \n", 'tags': '', 'url': 'about\xa0 games\xa0 of\xa0 thrones.html'}]};
