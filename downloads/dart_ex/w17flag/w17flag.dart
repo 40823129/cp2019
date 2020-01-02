@@ -1,9 +1,6 @@
 import 'dart:html';
 import 'dart:math' as Math;
 
-import 'dart:html';
-import 'dart:math' as Math;
-
 CanvasElement canvas;
 CanvasRenderingContext2D ctx;
 int flag_w = 300;
@@ -20,6 +17,8 @@ void main() {
   querySelector("#Fr").onClick.listen((e) => drawFr(ctx));
   querySelector("#ja").onClick.listen((e) => drawja(ctx));
   querySelector("#roc").onClick.listen((e) => drawroc(ctx));
+  querySelector("#ge").onClick.listen((e) => drawge(ctx));
+   querySelector("#ne").onClick.listen((e) => drawne(ctx));
   querySelector("#button").onClick.listen((e) => clearCanvas());
 }
 
@@ -103,6 +102,28 @@ void drawroc(ctx){
   // 填色設為白色
   ctx.fillStyle = '#fff';
   ctx.fill();
+}
+void drawge(ctx){
+  
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  ctx.fillStyle = '#000000';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  ctx.fillStyle = '#ff0000';
+  ctx.fillRect(0, 66, flag_w, flag_h);
+  ctx.fillStyle = '#ffd700';
+   ctx.fillRect(0, 132, flag_w, flag_h);
+  
+}
+void drawne(ctx){
+  
+  ctx.clearRect(0, 0, flag_w, flag_h);
+  ctx.fillStyle = '##ff0000';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, 66, flag_w, flag_h);
+  ctx.fillStyle = '#0000ff';
+   ctx.fillRect(0, 132, flag_w, flag_h);
+  
 }
 
 void clearCanvas(){
